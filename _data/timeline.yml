@@ -9,6 +9,8 @@
     - tag: record
       text: "Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if Huang doesn't reply."
       sources: [house-request, yahoo-gains]
+    - tag: record
+      text: "Republican US Senator Kevin Cramer from the Senate Banking Committee calls on Huang to resign as Nvidia CEO, citing extortion risks." 
     - tag: reported
       text: "Huang has pulled out of multiple appearances these past few days. He remains listed as keynote speaker at Nvidia’s GTC event in Washington next month."
       sources: [the-national]
