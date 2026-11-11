@@ -7,52 +7,52 @@
   headline: "House deadline for a briefing response"
   points:
     - tag: record
-      text: "Huang is due to accept a closed-door House briefing or propose another date. Committee chairman Brian Mast has said a subpoena is possible."
+      text: "Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if Huang doesn't reply."
       sources: [house-request, yahoo-gains]
     - tag: reported
-      text: "Huang remains listed as keynote speaker at Nvidia’s GTC event in Washington next month."
+      text: "Huang has pulled out of multiple appearances these past few days. He remains listed as keynote speaker at Nvidia’s GTC event in Washington next month."
       sources: [the-national]
 
 - date: 2026-11-10
-  headline: "Board inquiry takes shape as shares fall"
+  headline: "Board investigation takes shape"
   points:
     - tag: record
-      text: "Nvidia shares trade near $167, giving up their gains for 2026."
+      text: "Nvidia shares slide further, wiping out its gains for 2026."
       sources: [yahoo-gains]
     - tag: reported
-      text: "The board has hired law firm Wachtell Lipton, with former acting US attorney Joon H. Kim leading the inquiry."
+      text: "Nvidia's board hires law firm Wachtell Lipton for its investigation, with former acting US attorney Joon H. Kim leading the inquiry."
       sources: [fox-live]
     - tag: reported
-      text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion of Nvidia chips."
+      text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion worth of Nvidia chips."
       sources: [the-information, yahoo-live]
     - tag: denied
-      text: "A Chinese company named in that report says it bought through compliant channels and has no dealings with her. Megaspeed says inspections found no illicit chip transfers."
+      text: "A Chinese company named in that same report says it bought the chips through compliant channels and has no dealings with her. Megaspeed says inspections found no illicit chip transfers."
       sources: [yahoo-live]
 
 - date: 2026-11-09
   headline: "FBI involvement confirmed; China responds"
   points:
     - tag: record
-      text: "President Trump says the FBI is looking into the matter and that Huang told him he did not know of any intelligence link."
+      text: "President Trump says the FBI is looking into the matter and that Huang told him he did not know of any links with China."
       sources: [yahoo-live, newsweek]
     - tag: record
-      text: "Shareholders file a proposed class action alleging the risk should have been disclosed."
+      text: "Shareholders propose a class action lawsuit, stating the risk should have been disclosed."
       sources: [yahoo-gains]
     - tag: denied
-      text: "China’s Foreign Ministry calls the espionage allegation unsubstantiated."
+      text: "Beijing says the allegation of espionage are unsubstantiated."
       sources: [newsweek]
 
 - date: 2026-11-08
   headline: "Huang acknowledges an affair; board opens inquiry"
   points:
     - tag: record
-      text: "In a memo to staff, Huang says he was unfaithful to his wife, apologises and says he will stay on. He does not name anyone."
+      text: "In a memo to staff, Huang confirms he had an extramarital affair, apologises. He does not name anyone specifically, and says he wants to stay on as CEO."
       sources: [nvidia-memo]
     - tag: record
-      text: "Nvidia’s board opens an independent investigation. Its statement says it has no reason to believe national security or company secrets were compromised."
+      text: "Nvidia’s board opens an independent investigation. In a statement, the board says it has no reason to believe national security or company secrets were compromised."
       sources: [nvidia-board]
     - tag: record
-      text: "President Trump says Huang should remain chief executive."
+      text: "President Trump says he wants Huang to remain as Nvidia's CEO."
       sources: [stanford-daily]
     - tag: reported
       text: "The New York Times reports that a classified memo this spring warned senior US officials about the relationship."
@@ -74,8 +74,8 @@
   headline: "First reports"
   points:
     - tag: reported
-      text: "The New York Times reports that US intelligence agencies identified Alice Huang, an executive linked to Nvidia customer Megaspeed, as passing information to Beijing."
+      text: "The New York Times breaks the story. It alleges Nvidia CEO Jensen Huang had a close relationship with Alice Huang, a Chinese businesswoman with alleged ties to Beijing. It also claims that President Trump was aware of said allegations and did not take action."
       sources: [nyt-oct29, newsweek]
     - tag: denied
-      text: "Huang tells Bloomberg his dealings with her concerned Megaspeed and were normal business contact."
+      text: "Huang tells Bloomberg his dealings with Alice Huang concerned Megaspeed, the company she worked for, and were normal business contact."
       sources: [newsweek]
