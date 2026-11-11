@@ -1,0 +1,237 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nvestigation · A sourced timeline of the Nvidia CEO inquiry</title>
+<meta name="description" content="A neutral, sourced timeline of the inquiries surrounding Nvidia chief executive Jensen Huang.">
+<link rel="canonical" href="{{ site.url }}/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%2376B900'/%3E%3C/svg%3E">
+<!-- Built by Jekyll on GitHub Pages. Opening this file directly shows template code; check changes on the live site. -->
+<style>
+  :root {
+    color-scheme: dark;
+    --green: #76B900;
+    --green-hi: #A4E82A;
+    --ink: #0E1408;
+    --black: #000;
+    --panel: #0D100A;
+    --line: #283020;
+    --text: #EEF1E8;
+    --soft: #D5D9CC;
+    --muted: #9CA491;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --heavy: "Arial Black", "Segoe UI Black", "Helvetica Neue", Roboto, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: 1rem; }
+  body { margin: 0; background: var(--black); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; }
+  a { color: inherit; text-decoration-color: var(--green); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+  a:hover { color: var(--green-hi); }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--green-hi); outline-offset: 3px; border-radius: 2px; }
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* Header */
+  .hero { background: var(--green); color: var(--ink); padding: 1.25rem 0 3rem; }
+  .hero a { text-decoration-color: var(--ink); }
+  .hero a:hover { color: var(--ink); text-decoration-thickness: 2px; }
+  .bar { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .brand { font-family: var(--heavy); font-weight: 900; font-size: 1.35rem; letter-spacing: -0.03em; text-decoration: none; }
+  .brand span { opacity: 0.55; }
+  .bar nav { display: flex; gap: 1.5rem; font-weight: 600; font-size: 0.95rem; }
+  .hero h1 {
+    margin: 3.5rem 0 0; max-width: 14em;
+    font-family: var(--heavy); font-weight: 900;
+    font-size: clamp(2.6rem, 7.5vw, 5.5rem); line-height: 0.95; letter-spacing: -0.045em;
+  }
+  .lede { margin: 1.75rem 0 0; max-width: 38em; font-size: clamp(1.1rem, 2vw, 1.3rem); line-height: 1.5; }
+  .updated { margin: 1.5rem 0 0; padding-top: 1rem; border-top: 2px solid var(--ink); font-size: 0.9rem; font-weight: 600; }
+
+  /* Sections */
+  main section { padding-top: 4rem; }
+  h2 {
+    margin: 0 0 1.5rem; font-family: var(--heavy); font-weight: 900;
+    font-size: clamp(1.5rem, 3.4vw, 2.1rem); letter-spacing: -0.02em; line-height: 1.1;
+  }
+  h2::after { content: ""; display: block; width: 3rem; height: 4px; margin-top: 0.7rem; background: var(--green); }
+
+  /* Status */
+  .status { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; background: var(--panel); border: 1px solid var(--line); border-top: 4px solid var(--green); border-radius: 6px; }
+  .status div { padding: 1.25rem 1.5rem; border-left: 1px solid var(--line); }
+  .status div:first-child { border-left: 0; }
+  .status dt { font-size: 0.85rem; color: var(--muted); }
+  .status dd { margin: 0.2rem 0 0; font-size: 1.3rem; font-weight: 700; line-height: 1.3; }
+  .status dd small { display: block; margin-top: 0.2rem; font-size: 0.9rem; font-weight: 400; color: var(--soft); }
+
+  /* Tags */
+  .tag {
+    display: inline-block; margin-right: 0.4rem; padding: 0.05rem 0.5rem;
+    font-size: 0.72rem; font-weight: 700; line-height: 1.5; white-space: nowrap;
+    border: 1.5px solid var(--green); border-radius: 3px; vertical-align: 0.1em;
+  }
+  .tag-record { background: var(--green); color: var(--ink); }
+  .tag-reported { color: var(--green-hi); }
+  .tag-denied { border-color: #7C8570; border-style: dashed; color: #C4CAB8; }
+  .legend { list-style: none; margin: 0 0 2.25rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem; color: var(--muted); font-size: 0.92rem; }
+
+  /* Timeline */
+  .era { margin: 0 0 1.25rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .timeline { list-style: none; margin: 0; padding: 0; position: relative; max-width: 50rem; }
+  .timeline::before { content: ""; position: absolute; left: 7px; top: 0.5rem; bottom: 0; width: 2px; background: linear-gradient(var(--green), var(--line) 90%); }
+  .entry { position: relative; padding: 0 0 2.25rem 2.75rem; }
+  .entry::before {
+    content: ""; position: absolute; left: 0; top: 0.3rem; width: 16px; height: 16px;
+    background: var(--black); border: 2px solid var(--green); border-radius: 3px;
+  }
+  .entry.latest::before { background: var(--green); box-shadow: 0 0 0 5px rgba(118,185,0,0.22); }
+  .entry time, .entry .when { font-size: 0.88rem; font-weight: 700; color: var(--green); }
+  .entry h3 { margin: 0.1rem 0 0.6rem; font-size: 1.25rem; line-height: 1.25; }
+  .entry ul { list-style: none; margin: 0; padding: 0; }
+  .entry ul li, .entry p { margin: 0 0 0.55rem; color: var(--soft); }
+  .earlier { margin-top: 1.5rem; }
+  .earlier .timeline::before { background: var(--line); }
+  .earlier .entry { padding-bottom: 1.5rem; }
+  .earlier .entry::before { width: 12px; height: 12px; left: 2px; border-color: #4F5C33; }
+
+  .ref { font-size: 0.75rem; white-space: nowrap; }
+  .ref a { text-decoration: none; color: var(--green-hi); padding: 0 0.1em; }
+  .ref a:hover { text-decoration: underline; }
+
+  /* Sources */
+  .sources { margin: 0; padding-left: 1.5rem; columns: 2; column-gap: 3rem; font-size: 0.9rem; color: var(--muted); }
+  .sources li { margin: 0 0 0.5rem; padding: 0.1rem 0.3rem; break-inside: avoid; overflow-wrap: anywhere; }
+  .sources li:target { background: rgba(118,185,0,0.2); color: var(--text); }
+
+  /* About */
+  .about { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+  .about article { padding: 1.5rem; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+  .about article.wide { grid-column: 1 / -1; }
+  .about h3 { margin: 0 0 0.6rem; font-size: 1.15rem; }
+  .about p { margin: 0 0 0.75rem; color: var(--soft); }
+  .about p:last-child { margin-bottom: 0; }
+  .placeholder { padding: 0.75rem 1rem; border: 1.5px dashed #4F5C33; border-radius: 4px; color: var(--muted) !important; font-style: italic; }
+
+  footer { margin-top: 4rem; padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+
+  @media (max-width: 48rem) {
+    .status { grid-template-columns: 1fr; }
+    .status div { border-left: 0; border-top: 1px solid var(--line); }
+    .status div:first-child { border-top: 0; }
+    .about { grid-template-columns: 1fr; }
+    .sources { columns: 1; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="{{ '/' | relative_url }}">N<span>vestigation</span></a>
+      <nav aria-label="Sections">
+        <a href="#status">Status</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+
+    <h1>The Nvidia CEO inquiry, in order.</h1>
+    <p class="lede">On 8 November 2026, Nvidia chief executive Jensen Huang told staff he had been unfaithful to his wife. Press reports identify the other person as Alice Huang, an executive linked to Nvidia customer Megaspeed, and cite US intelligence assessments that she was recruited by China’s Ministry of State Security. Those espionage claims have not been proven, and China denies them. Nvidia’s board, Congress and the FBI are looking into the matter.</p>
+    <p class="updated">Last updated {{ site.data.status.updated | date: "%-d %B %Y" }}</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="status">
+    <h2>Who runs Nvidia</h2>
+    <dl class="status">
+      <div><dt>Chief executive</dt><dd>{{ site.data.status.ceo }}<small>{{ site.data.status.title }}</small></dd></div>
+      <div><dt>In the role since</dt><dd>{{ site.data.status.since }}<small>{{ site.data.status.since_note }}</small></dd></div>
+      <div><dt>Status checked</dt><dd>{{ site.data.status.updated | date: "%-d %B %Y" }}<small>Updated by hand</small></dd></div>
+    </dl>
+  </section>
+
+  <section id="timeline">
+    <h2>Timeline</h2>
+
+    <ul class="legend">
+      <li><span class="tag tag-record">On the record</span> Checkable statement, filing or event</li>
+      <li><span class="tag tag-reported">Reported</span> Press reports citing unnamed sources; not proven</li>
+      <li><span class="tag tag-denied">Denied</span> Rebuttal from someone involved</li>
+    </ul>
+
+    <ol class="timeline">
+      {% for e in site.data.timeline %}
+      <li class="entry{% if forloop.first %} latest{% endif %}">
+        <time datetime="{{ e.date | date: "%Y-%m-%d" }}">{% if e.label %}{{ e.label }}{% else %}{{ e.date | date: "%-d %B %Y" }}{% endif %}</time>
+        <h3>{{ e.headline }}</h3>
+        <ul>
+          {% for item in e.points %}
+          <li>{% include tag.html tag=item.tag %} {{ item.text }}{% include refs.html keys=item.sources %}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <div class="earlier">
+      <p class="era">Before the story broke</p>
+      <ol class="timeline">
+        {% for b in site.data.background %}
+        <li class="entry">
+          <span class="when">{{ b.label }}</span>
+          <p>{% include tag.html tag=b.tag %} {{ b.text }}{% include refs.html keys=b.sources %}</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <section id="sources">
+    <h2>Sources</h2>
+    <ol class="sources">
+      {% for s in site.data.sources %}
+      <li id="src-{{ s.id }}">{{ s.publisher }}, <a href="{{ s.url }}">{{ s.title }}</a>{% if s.date %}, {{ s.date }}{% endif %}.{% if s.note %} {{ s.note }}{% endif %}</li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about">
+      <!-- Replace each placeholder paragraph with your own text. Add more <p> lines as needed. -->
+      <article>
+        <h3>About the author</h3>
+        <p class="placeholder">Write a short bio here.</p>
+      </article>
+      <article>
+        <h3>How this timeline works</h3>
+        <p>Entries are tagged by how solid they are. “On the record” means a public statement, filing or event anyone can check. “Reported” means journalism based on unnamed sources or intelligence assessments, which has not been independently confirmed. “Denied” records rebuttals from the people and organisations involved.</p>
+        <p>Every line links to its source. Paywalled reporting is summarised through publicly available coverage, which the source list notes.</p>
+      </article>
+      <article class="wide">
+        <h3>Disclaimers</h3>
+        <p class="placeholder">Write your disclaimers here.</p>
+      </article>
+      <article class="wide">
+        <h3>Corrections and contact</h3>
+        <p class="placeholder">Explain how readers can send corrections or get in touch.</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Nvestigation · nvestigation.com</span>
+    <span>Independent. Not affiliated with Nvidia.</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+# Every source the page cites. The numbers on the page come from the order here,
+# so add new sources at the bottom. Refer to a source elsewhere by its id.
+
+- id: nvidia-memo
+  publisher: "Nvidia"
+  title: "“A Message to Our Company”"
+  url: https://nvidianews.nvidia.com/news/a-message-to-our-company
+  date: "8 Nov 2026"
+
+- id: nvidia-board
+  publisher: "Nvidia"
+  title: "board statement"
+  url: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors
+  date: "8 Nov 2026"
+
+- id: nyt-oct29
+  publisher: "New York Times"
+  title: "report"
+  url: https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html
+  date: "29 Oct 2026"
+  note: "Paywalled; summarised via Newsweek."
+
+- id: nyt-nov6
+  publisher: "New York Times"
+  title: "report"
+  url: https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html
+  date: "6 Nov 2026"
+  note: "Paywalled; summarised via Newsweek and Business Standard."
+
+- id: house-request
+  publisher: "House Foreign Affairs Committee"
+  title: "briefing request"
+  url: https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset
+
+- id: newsweek
+  publisher: "Newsweek"
+  title: "timeline"
+  url: https://www.newsweek.com/nvidia-jensen-huang-china-timeline-alice-huang-12690761
+  date: "9 Nov 2026"
+
+- id: yahoo-live
+  publisher: "Yahoo Finance"
+  title: "live updates"
+  url: https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html
+  date: "9–10 Nov 2026"
+
+- id: yahoo-gains
+  publisher: "Yahoo Finance"
+  title: "“Nvidia Erases 2026 Gains”"
+  url: https://finance.yahoo.com/markets/stocks/articles/nvidia-erases-2026-gains-republicans-204550552.html
+  date: "10 Nov 2026"
+
+- id: fox-live
+  publisher: "Fox News"
+  title: "live updates"
+  url: https://www.foxnews.com/live-news/ai-news-nvidia-jensen-huang-11-10-26
+  date: "10 Nov 2026"
+
+- id: the-information
+  publisher: "The Information"
+  title: "chip network report"
+  url: https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china
+  date: "10 Nov 2026"
+  note: "Paywalled; summarised via Yahoo Finance."
+
+- id: business-standard
+  publisher: "Business Standard"
+  title: "past statements compared"
+  url: https://www.business-standard.com/world-news/nvidia-ceo-jensen-huang-s-affair-admission-counters-past-statements-on-ties-126110900278_1.html
+  date: "9 Nov 2026"
+
+- id: the-national
+  publisher: "The National"
+  title: "GTC keynote"
+  url: https://www.thenationalnews.com/future/technology/2026/11/11/nvidia-ceo-jensen-huang-alice-huang/
+  date: "11 Nov 2026"
+
+- id: culper
+  publisher: "Culper Research"
+  title: "short report (PDF)"
+  url: https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf
+  date: "13 May 2026"
+  note: "Summarised via Yahoo Finance."
+
+- id: stanford-daily
+  publisher: "The Stanford Daily"
+  title: "coverage"
+  url: https://stanforddaily.com/2026/11/10/jensen-huang-admits-to-affair-with-alleged-chinese-spy/
+  date: "10 Nov 2026"

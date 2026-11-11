@@ -1,0 +1,81 @@
+# The timeline, newest entry first. The top entry gets the highlighted marker.
+# tag is one of: record (on the record), reported (unnamed sources, not proven), denied (a rebuttal).
+# sources are ids from sources.yml. Keep text inside double quotes.
+# For a date range, add a label line under date, e.g. label: "5–6 November 2026".
+
+- date: 2026-11-11
+  headline: "House deadline for a briefing response"
+  points:
+    - tag: record
+      text: "Huang is due to accept a closed-door House briefing or propose another date. Committee chairman Brian Mast has said a subpoena is possible."
+      sources: [house-request, yahoo-gains]
+    - tag: reported
+      text: "Huang remains listed as keynote speaker at Nvidia’s GTC event in Washington next month."
+      sources: [the-national]
+
+- date: 2026-11-10
+  headline: "Board inquiry takes shape as shares fall"
+  points:
+    - tag: record
+      text: "Nvidia shares trade near $167, giving up their gains for 2026."
+      sources: [yahoo-gains]
+    - tag: reported
+      text: "The board has hired law firm Wachtell Lipton, with former acting US attorney Joon H. Kim leading the inquiry."
+      sources: [fox-live]
+    - tag: reported
+      text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion of Nvidia chips."
+      sources: [the-information, yahoo-live]
+    - tag: denied
+      text: "A Chinese company named in that report says it bought through compliant channels and has no dealings with her. Megaspeed says inspections found no illicit chip transfers."
+      sources: [yahoo-live]
+
+- date: 2026-11-09
+  headline: "FBI involvement confirmed; China responds"
+  points:
+    - tag: record
+      text: "President Trump says the FBI is looking into the matter and that Huang told him he did not know of any intelligence link."
+      sources: [yahoo-live, newsweek]
+    - tag: record
+      text: "Shareholders file a proposed class action alleging the risk should have been disclosed."
+      sources: [yahoo-gains]
+    - tag: denied
+      text: "China’s Foreign Ministry calls the espionage allegation unsubstantiated."
+      sources: [newsweek]
+
+- date: 2026-11-08
+  headline: "Huang acknowledges an affair; board opens inquiry"
+  points:
+    - tag: record
+      text: "In a memo to staff, Huang says he was unfaithful to his wife, apologises and says he will stay on. He does not name anyone."
+      sources: [nvidia-memo]
+    - tag: record
+      text: "Nvidia’s board opens an independent investigation. Its statement says it has no reason to believe national security or company secrets were compromised."
+      sources: [nvidia-board]
+    - tag: record
+      text: "President Trump says Huang should remain chief executive."
+      sources: [stanford-daily]
+    - tag: reported
+      text: "The New York Times reports that a classified memo this spring warned senior US officials about the relationship."
+      sources: [business-standard]
+
+- date: 2026-11-06
+  label: "5–6 November 2026"
+  headline: "Reports name China’s Ministry of State Security"
+  points:
+    - tag: reported
+      text: "The New York Times reports that US intelligence assessed Alice Huang as working for China’s Ministry of State Security. The Financial Times reports officials believed the relationship was romantic."
+      sources: [nyt-nov6, business-standard]
+    - tag: record
+      text: "Three House committee chairmen ask Huang for a closed-door briefing on 18 November."
+      sources: [house-request]
+
+- date: 2026-10-29
+  label: "29–30 October 2026"
+  headline: "First reports"
+  points:
+    - tag: reported
+      text: "The New York Times reports that US intelligence agencies identified Alice Huang, an executive linked to Nvidia customer Megaspeed, as passing information to Beijing."
+      sources: [nyt-oct29, newsweek]
+    - tag: denied
+      text: "Huang tells Bloomberg his dealings with her concerned Megaspeed and were normal business contact."
+      sources: [newsweek]

@@ -1,0 +1,1 @@
+<span class="ref">{% for key in include.keys %}{% for s in site.data.sources %}{% if s.id == key %} <a href="#src-{{ s.id }}">{{ forloop.index }}</a>{% endif %}{% endfor %}{% endfor %}</span>
