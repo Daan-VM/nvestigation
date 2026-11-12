@@ -3,6 +3,11 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-12
+  headline: Jensen Huang resigns as Nvidia CEO
+  points:
+    - tag: record
+      text: "Jensen Huang has resigned as President and CEO of Nvidia. CFO Colette Kress will serve as interim CEO as the board looks for a permanent successor. It's considering both internal and extranal candidates, but it's unclear who's being considered."
 - date: 2026-11-11
   headline: "Deadline day on Capitol Hill, second affair"
   points:
