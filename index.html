@@ -104,14 +104,16 @@
   .sources li { margin: 0 0 0.5rem; padding: 0.1rem 0.3rem; break-inside: avoid; overflow-wrap: anywhere; }
   .sources li:target { background: rgba(118,185,0,0.2); color: var(--text); }
 
-  /* About */
-  .about { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
-  .about article { padding: 1.5rem; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
-  .about article.wide { grid-column: 1 / -1; }
-  .about h3 { margin: 0 0 0.6rem; font-size: 1.15rem; }
-  .about p { margin: 0 0 0.75rem; color: var(--soft); }
-  .about p:last-child { margin-bottom: 0; }
-  .placeholder { padding: 0.75rem 1rem; border: 1.5px dashed #4F5C33; border-radius: 4px; color: var(--muted) !important; font-style: italic; }
+  /* About: label on the left, text on the right */
+  .colophon { border-top: 1px solid var(--line); }
+  .colophon .row { display: grid; grid-template-columns: 13rem minmax(0, 40em); gap: 0 3rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+  .colophon h3 { margin: 0; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
+  .colophon p { margin: 0 0 0.85rem; color: var(--soft); }
+  .colophon p:last-child { margin-bottom: 0; }
+  .points { list-style: none; margin: 0 0 0.85rem; padding: 0; }
+  .points:last-child { margin-bottom: 0; }
+  .points li { position: relative; margin: 0 0 0.7rem; padding-left: 1.4rem; color: var(--soft); }
+  .points li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 0.5rem; height: 0.5rem; background: var(--green); border-radius: 1px; }
 
   footer { margin-top: 4rem; padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
   footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
@@ -120,7 +122,7 @@
     .status { grid-template-columns: 1fr; }
     .status div { border-left: 0; border-top: 1px solid var(--line); }
     .status div:first-child { border-top: 0; }
-    .about { grid-template-columns: 1fr; }
+    .colophon .row { grid-template-columns: 1fr; gap: 0.75rem; }
     .sources { columns: 1; }
   }
 </style>
@@ -139,8 +141,9 @@
     </div>
 
     <h1>The Nvidia CEO scandal, day by day.</h1>
-    <p class="lede">On 8 November 2026, Nvidia chief executive Jensen Huang told staff he had been unfaithful to his wife. Press reports identify the other person as Alice Huang, an executive linked to Nvidia customer Megaspeed.</p> 
+    <p class="lede">On 8 November 2026, Nvidia CEO Jensen Huang told staff he had an extramarital affair. Press reports identify the other person as Alice Huang, an executive linked to Nvidia customer Megaspeed.</p> 
     <p class="lede">U.S. intelligence assessments reportedly state that she is a Chinese intelligence asset. They allege she used her ties to Huang to circumvent US export controls and pass information to Beijing.</p>
+    <p class="lede">As it stands, the matter is being looked into by the Nvidia Board of Directors, Congress and the FBI. China has denied any involvement.</p>
     <p class="updated">Last updated {{ site.data.status.updated | date: "%-d %B %Y" }}</p>
   </div>
 </header>
@@ -160,8 +163,8 @@
     <h2>Timeline</h2>
 
     <ul class="legend">
-      <li><span class="tag tag-record">On the record</span> Verifiable statement, filing or event</li>
-      <li><span class="tag tag-reported">Reported</span> Press reports citing unnamed sources; not proven</li>
+      <li><span class="tag tag-record">On the record</span> Public statement or filing</li>
+      <li><span class="tag tag-reported">Reported</span> Press reports citing unnamed sources</li>
       <li><span class="tag tag-denied">Denied</span> Rebuttal from someone involved</li>
     </ul>
 
@@ -203,27 +206,39 @@
 
   <section id="about">
     <h2>About</h2>
-    <div class="about">
-      <article>
-        <h3>About the author</h3>
-        <p>My name is ... I'm a journalist who's covered technology for the past decade. I mostly I cover semiconductor companies like Nvidia</p>
-        <p>I wrote this website as a neutral, sourced timeline of a fast-moving story. Mostly for myself, but I figured I'd release it for those interested.</p>
-        <p>I do not own any Nvidia shares, nor do I have any other financial interest in the company.</p>
-      </article>
-      <article>
-        <h3>How this timeline works</h3>
-        <p>Entries are tagged by how solid they are.</p>
-        <ul>
-          <li>“On the record” means a public statement, filing or event anyone can check.</li>
-          <li>“Reported” means journalism based on unnamed sources or intelligence assessments, which has not been independently confirmed.</li>
-          <li>“Denied” records rebuttals from the people and organisations involved.</li>
-        <p>Every line links to its source. Paywalled reporting is summarised through publicly available coverage, which the source list notes.</p>
-      </article>
-      <article class="wide">
+    <div class="colophon">
+
+      <div class="row">
+        <h3>The author</h3>
+        <div>
+          <p>I'm ..., a journalist who has covered technology for the past decade. I specialize mostly semiconductor companies like Nvidia. You can find my work on <a href="">my personal website</a>.</p>
+          <p>I wrote this website as a neutral, sourced timeline to keep track of a fast-moving story. Mostly for myself, but I figured I’d share it for those interested.</p>
+          <p>I don’t own Nvidia shares or have any other financial interest in the company. I have no personal ties to anyone involved in this story.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <h3>How it works</h3>
+        <div>
+          <p>Entries are tagged by how solid they are.</p>
+          <ul class="points">
+            <li>“On the record”: a public statement or filing.</li>
+            <li>“Reported”: reports from established news outlets citing anonymous sources. Not independently confirmed.</li>
+            <li>“Denied”: rebuttals from people and organisations involved.</li>
+          </ul>
+          <p>Every line links to its source. Paywalled reporting is summarised through publicly available coverage, which the source list notes.</p>
+        </div>
+      </div>
+
+      <div class="row">
         <h3>Disclaimers</h3>
-        <p>This is purely a personal project, and in no way affiliated with Nvidia or my employer. I do not earn any money from this website.</p>
-        <p>This website's design and code were written with the help of an AI assistant. The contents are all human-made. I have personally curated all the sources and done all the writing.</p>
-        <p>This is purely meant as an information and neutral timeline of events. This site is not investment or legal advice.</p>
+        <ul class="points">
+          <li>This is purely a personal project, and in no way affiliated with Nvidia or my employer. I do not earn any money from this website.</li>
+          <li>This website’s design and code were written with the help of an AI assistant. I have personally curated the sources and done the writing.</li>
+          <li>This is purely meant as an informational and neutral timeline of events. This site is not investment or legal advice.</li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
