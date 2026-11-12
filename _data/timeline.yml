@@ -9,6 +9,15 @@
     - tag: record
       text: "Jensen Huang has resigned as President and CEO of Nvidia. CFO Colette Kress will serve as interim CEO as the board looks for a permanent successor. The company is looking at both internal and external candidates, but it's unclear who's being considered."
       sources: [jensen-resigns]
+    - tag: record
+      text: "Huang has agreed to testify before Congress before Thanksgiving, according to Committee chairman Brian Mast. He says the hearing will be behind closed doors, but will probably be filmed and transcribed."
+      sources: [bloomberg-congress]
+    - tag: reported
+      text: "Nvidia has tapped an outside firm to help find its next CEO, according to Bloomberg."
+      sources: [bloomberg-ceo-search]
+    - tag: reported
+      text: "Reuters reports that Huang had a third affair, citing two people familiair with the matter. It reportedly involved another Nvidia employee, although the outlet elected not to name her. Nvidia declined to comment and Huang didn't respond to questions."
+      sources: [third-affair]
       
 - date: 2026-11-11
   headline: "Deadline day on Capitol Hill, second affair"
