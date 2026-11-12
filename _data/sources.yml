@@ -144,3 +144,15 @@
   title: "NVIDIA (NVDA): The China Problem"
   url: https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf
   date: 13 May 2026
+
+- id: wsj-timeline
+  publisher: The Wall Street Journal
+  title: "A Timeline of Nvidia CEO Jensen Huang’s Suspected Spy Drama"
+  url: https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3
+  date: 11 Nov 2026
+
+- id: cnn-h200
+  publisher: CNN
+  title:  Trump greenlights exports of Nvidia H200 chips to China
+  url: https://edition.cnn.com/2025/12/08/tech/nvidia-h200-chips-china-trump-export
+  date: 9 Dec 2025
