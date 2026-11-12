@@ -52,6 +52,9 @@
     - tag: reported
       text: "Media reports that the U.S. Department of Commerce halted an investigation into Megaspeed after it received after a top Nvidia executive reached out to officials."
       sources: [nyt-nov9]
+    - tag: denied
+      text: "Beijing denies espionage claims involving Mr. Huang, calling the reports a fabrication and a smear agaisnt China."
+      sources: [nyt-denial]
 
       
 - date: 2026-11-08
