@@ -62,7 +62,7 @@
       sources: [nvidia-memo]
     - tag: record
       text: "The Nvidia board of directors launch an independent investigation, following reports that its CEO was the target of a foreign intelligence effort. The board says it has no reason to believe national security or Nvidia secrets were threatened, and has confidence in Mr. Huang."
-      sources: [nvidia-nov8]
+      sources: [board-nov8]
 
 - date: 2026-11-07
   headline: "First reports of affair"
