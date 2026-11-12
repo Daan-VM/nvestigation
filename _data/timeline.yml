@@ -30,6 +30,7 @@
       sources: [stocks-2026]
     - tag: reported
       text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Mr. Huang's was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge on the matter."
+      sources: [nyt-nov10]
     - tag: reported
       text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion worth of Nvidia chips."
       sources: [information-report]
