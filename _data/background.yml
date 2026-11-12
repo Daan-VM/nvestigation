@@ -21,6 +21,7 @@
     sources: [newsweek-timeline, information-report]
 
 - label: "2023"
+  points:
   - tag: record
     text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme."
     sources: [wsj-timeline, information-report]
