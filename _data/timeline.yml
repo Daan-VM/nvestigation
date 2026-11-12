@@ -8,6 +8,8 @@
   points:
     - tag: record
       text: "Jensen Huang has resigned as President and CEO of Nvidia. CFO Colette Kress will serve as interim CEO as the board looks for a permanent successor. It's considering both internal and extranal candidates, but it's unclear who's being considered."
+      sources: [jensen-resigns]
+      
 - date: 2026-11-11
   headline: "Deadline day on Capitol Hill, second affair"
   points:
