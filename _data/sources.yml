@@ -67,6 +67,12 @@
   url: https://apnews.com/article/china-denies-spy-jensen-huang-nvidia-3345b9f05c54d58909e88f6dcb9c1cd8
   date: 9 Nov 2026
 
+- id: nyt-denial
+  publisher: The New York Times
+  title: "China Rejects Espionage Claims Involving Nvidia C.E.O. Jensen Huang"
+  url: https://www.nytimes.com/2026/11/09/business/jensen-huang-china-spying.html
+  date: 9 Nov 2026
+
 - id: board-nov10
   publisher: Nvidia
   title: "Statement From the Independent Members of the NVIDIA Board"
