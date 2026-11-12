@@ -188,8 +188,15 @@
         {% for b in site.data.background %}
         <li class="entry">
           <span class="when">{{ b.label }}</span>
-          <p>{% include tag.html tag=b.tag %} {{ b.text }}{% include refs.html keys=b.sources %}</p>        
-        </li>
+          {% if b.points %}
+            <ul>
+              {% for item in b.points %}
+              <li>{% include tag.html tag=item.tag %} {{ item.text }}{% include refs.html keys=item.sources %}</li>
+              {% endfor %}
+      </ul>
+{% else %}
+<p>{% include tag.html tag=b.tag %} {{ b.text }}{% include refs.html keys=b.sources %}</p>
+{% endif %}        </li>
         {% endfor %}
       </ol>
     </div>
