@@ -7,16 +7,16 @@
   headline: "Deadline day on Capitol Hill, second affair"
   points:
     - tag: record
-      text: " Jensen Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if he doesn't reply."
+      text: " Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if he doesn't reply."
       sources: [house-briefing, reuters-subpoena]
     - tag: record
       text: "Republican U.S. Senator Kevin Cramer from the Senate Banking Committee calls on Huang to resign as Nvidia CEO, citing risks of extortion."
       sources: [cnbc-resign]
     - tag: reported
-      text: "Mr. Huang allegedly had a second affair with an Nvidia executive who reported to him, according to the New York TImes."
+      text: "Huang allegedly had a second affair with an Nvidia executive who reported to him, according to The New York Times."
       sources: [nyt-second-affair]
     - tag: reported
-      text: "Multiple media report Nvidia's board is preparing to oust Mr. Huang as CEO. The board was expected to meet Wednesday night, but didn't make any decision public yet."
+      text: "Multiple media report Nvidia's board is preparing to oust Huang as CEO. The board was expected to meet Wednesday night, but didn't make any decision public yet."
       sources: [board-prepares, board-meets]
       
 - date: 2026-11-10
@@ -26,10 +26,10 @@
       text: "Nvidia's board hires law firm Wachtell Lipton for its investigation, with former acting U.S. attorney Joon H. Kim leading the inquiry."
       sources: [board-nov10]
     - tag: record
-      text: "Nvidia shares slide further, wiping out its gains for 2026."
+      text: "Nvidia shares slide further, wiping out the company's gains for 2026."
       sources: [stocks-2026]
     - tag: reported
-      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Mr. Huang's was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge on the matter."
+      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Huang was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge on the matter."
       sources: [nyt-nov10]
     - tag: reported
       text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion worth of Nvidia chips."
@@ -42,37 +42,37 @@
   headline: "FBI looks into affair"
   points:
     - tag: record
-      text: "President Trump says the FBI is looking into Mr. Huang's affair with an alleged Chinese intelligence asset. He says Jensen told him he didn't know of any such ties. President Trump also denies that he knew of the affair."
+      text: "President Trump says the FBI is looking into Huang's affair with an alleged Chinese intelligence asset. He says Huang told him he didn't know of any such ties. President Trump also denies that he knew of the affair."
       sources: [ap-nov9]
     - tag: record
-      text: "Nvidia's stock price slides 4% after Mr. Huang admitted his affair."
+      text: "Markets open after Huang's admission. Nvidia's stock price slides 4%."
       sources: [cnn-stocks]
     - tag: record
       text: "Shareholders propose a class action lawsuit, stating the risk associated with the relationship should have been disclosed."
       sources: [reuters-lawsuit]
     - tag: reported
-      text: "Media reports that the U.S. Department of Commerce halted an investigation into Megaspeed after it received after a top Nvidia executive reached out to officials."
+      text: "Media report that the U.S. Department of Commerce halted an investigation into Megaspeed after a top Nvidia executive reached out to officials. The investigation was reportedly transferred to the Justice Departemnt"
       sources: [nyt-nov9]
     - tag: denied
-      text: "Beijing denies espionage claims involving Mr. Huang, calling the reports a fabrication and a smear agaisnt China."
+      text: "Beijing denies espionage claims involving Mr. Huang, calling the reports a fabrication and a smear against China."
       sources: [nyt-denial]
 
       
 - date: 2026-11-08
-  headline: "Jensen admits affair, board launches investigation"
+  headline: "Huang admits affair, board launches investigation"
   points:
     - tag: record
-      text: "Jensen Huang releases a memo sent to employees of Nvidia. In it, he admits he was unfaithful to his wife, although he doesn't name the other person. He says he will stay on as CEO."
+      text: "Huang releases a memo sent to employees of Nvidia. In it, he admits he was unfaithful to his wife, although he doesn't name the other person. He says he will stay on as CEO."
       sources: [nvidia-memo]
     - tag: record
-      text: "The Nvidia board of directors launch an independent investigation, following reports that its CEO was the target of a foreign intelligence effort. The board says it has no reason to believe national security or Nvidia secrets were threatened, and has confidence in Mr. Huang."
+      text: "The Nvidia Board of Directors launches an independent investigation, following reports that its CEO was the target of a foreign intelligence effort. The board says it has no reason to believe national security or Nvidia secrets were threatened, and has confidence in Mr. Huang."
       sources: [board-nov8]
 
 - date: 2026-11-07
   headline: "First reports of affair"
   points:
     - tag: reported
-      text: "U.S. officials believe the relationship between Mr. Huang and Alice Huang was 'romantic', according to the Financial Times."
+      text: "U.S. officials believe the relationship between Huang and Alice Huang was 'romantic', according to the Financial Times."
       sources: [ft-nov7]
 
 - date: 2026-11-06
@@ -88,7 +88,7 @@
 
 - date: 2026-10-29
   label: "29–30 October 2026"
-  headline: "First reports"
+  headline: "The story breaks"
   points:
     - tag: reported
       text: "The New York Times breaks the story. It alleges Nvidia CEO Jensen Huang had a close relationship with Alice Huang (not related), a Chinese businesswoman with alleged ties to Beijing. It also claims that President Trump was aware of said allegations and did not take action."
