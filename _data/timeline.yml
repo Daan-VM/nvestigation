@@ -17,7 +17,8 @@
       sources: [nyt-second-affair]
     - tag: reported
       text: "Multiple media report Nvidia's board is preparing to oust Mr. Huang as CEO. The board was expected to meet Wednesday night, but didn't make any decision public yet."
-
+      sources: [board-prepares, board-meets]
+      
 - date: 2026-11-10
   headline: "Board investigation takes shape"
   points:
