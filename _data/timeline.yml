@@ -4,7 +4,7 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-12
-  headline: Jensen Huang resigns as Nvidia CEO
+  headline: "Jensen Huang resigns as Nvidia CEO"
   points:
     - tag: record
       text: "Jensen Huang has resigned as President and CEO of Nvidia. CFO Colette Kress will serve as interim CEO as the board looks for a permanent successor. The company is looking at both internal and external candidates, but it's unclear who's being considered."
@@ -20,7 +20,7 @@
       sources: [third-affair]
       
 - date: 2026-11-11
-  headline: "Deadline day on Capitol Hill, second affair"
+  headline: "NYT reports second affair, board considers firing Huang"
   points:
     - tag: record
       text: " Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if he doesn't reply."
@@ -36,7 +36,7 @@
       sources: [board-prepares, board-meets]
       
 - date: 2026-11-10
-  headline: "Board investigation takes shape"
+  headline: "Nvidia's investigation takes shape"
   points:
     - tag: record
       text: "Nvidia's board hires law firm Wachtell Lipton for its investigation, with former acting U.S. attorney Joon H. Kim leading the inquiry."
@@ -55,7 +55,7 @@
       sources: [information-report]
 
 - date: 2026-11-09
-  headline: "FBI looks into affair"
+  headline: "FBI looks into the affair"
   points:
     - tag: record
       text: "President Trump says the FBI is looking into Huang's affair with an alleged Chinese intelligence asset. He says Huang told him he didn't know of any such ties. President Trump also denies that he knew of the affair."
