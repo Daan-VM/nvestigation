@@ -1,4 +1,5 @@
 title: Nvestigation
 url: https://nvestigation.com
+timezone: Europe/Amsterdam
 exclude:
   - README.md
