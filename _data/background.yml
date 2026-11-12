@@ -3,24 +3,24 @@
 - label: "May 2026"
   tag: record
   text: "Short seller Culper Research publishes a report on Nvidia’s China exposure that mentions Megaspeed and Huang’s ties to Alice Huang."
-  sources: [culper, yahoo-live]
+  sources: [culper-report]
 
 - label: "Spring 2026"
   tag: reported
   text: "A classified memo circulates among senior US officials, according to later New York Times reporting."
-  sources: [newsweek]
+  sources: [newsweek-timeline]
 
 - label: "2025"
   tag: reported
   text: "The president is reportedly briefed on the intelligence. Huang lobbies for looser limits on chip sales to China. Taiwanese TV films the two at a group dinner in Taipei."
-  sources: [newsweek]
+  sources: [newsweek-timeline]
 
 - label: "2024"
   tag: reported
   text: "The two reportedly meet at an Nvidia event. A Megaspeed affiliate begins buying what becomes at least $4.8 billion of Nvidia-based equipment, and the Commerce Department starts examining Megaspeed."
-  sources: [newsweek]
+  sources: [newsweek-timeline]
 
 - label: "2023"
   tag: record
   text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme."
-  sources: [newsweek]
+  sources: [newsweek-timeline]
