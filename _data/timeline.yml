@@ -16,7 +16,7 @@
       text: "Huang allegedly had a second affair with an Nvidia executive who reported to him, according to The New York Times."
       sources: [nyt-second-affair]
     - tag: reported
-      text: "Multiple media report Nvidia's board is preparing to oust Huang as CEO. The board was expected to meet Wednesday night, but didn't make any decision public yet."
+      text: "Multiple media report Nvidia's board is preparing to oust Huang as CEO. The board was expected to meet Wednesday night, but hasn't made any decision public as of yet."
       sources: [board-prepares, board-meets]
       
 - date: 2026-11-10
@@ -26,10 +26,10 @@
       text: "Nvidia's board hires law firm Wachtell Lipton for its investigation, with former acting U.S. attorney Joon H. Kim leading the inquiry."
       sources: [board-nov10]
     - tag: record
-      text: "Nvidia shares slide further, wiping out the company's gains for 2026."
+      text: "Nvidia shares slide further, wiping out the stock's gains for 2026."
       sources: [stocks-2026]
     - tag: reported
-      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Huang was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge on the matter."
+      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Huang was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge of the matter."
       sources: [nyt-nov10]
     - tag: reported
       text: "The Information reports that companies tied to Alice Huang helped Chinese firms obtain about $7.5 billion worth of Nvidia chips."
@@ -45,16 +45,16 @@
       text: "President Trump says the FBI is looking into Huang's affair with an alleged Chinese intelligence asset. He says Huang told him he didn't know of any such ties. President Trump also denies that he knew of the affair."
       sources: [ap-nov9]
     - tag: record
-      text: "Markets open after Huang's admission. Nvidia's stock price slides 4%."
+      text: "Markets open after Huang's admission, Nvidia's stock price slides 4%."
       sources: [cnn-stocks]
     - tag: record
-      text: "Shareholders propose a class action lawsuit, stating the risk associated with the relationship should have been disclosed."
+      text: "Shareholders file a class action lawsuit, stating the risks associated with the relationship should have been disclosed."
       sources: [reuters-lawsuit]
     - tag: reported
-      text: "Media report that the U.S. Department of Commerce halted an investigation into Megaspeed after a top Nvidia executive reached out to officials. The investigation was reportedly transferred to the Justice Departemnt"
+      text: "Media report that the U.S. Department of Commerce transferred an investigation into Megaspeed to the Justice Department, after a top Nvidia executive reached out to officials."
       sources: [nyt-nov9]
     - tag: denied
-      text: "Beijing denies espionage claims involving Mr. Huang, calling the reports a fabrication and a smear against China."
+      text: "Beijing denies espionage claims involving Nvidia's CEO, calling the reports a fabrication and a smear against China."
       sources: [nyt-denial]
 
       
@@ -65,7 +65,7 @@
       text: "Huang releases a memo sent to employees of Nvidia. In it, he admits he was unfaithful to his wife, although he doesn't name the other person. He says he will stay on as CEO."
       sources: [nvidia-memo]
     - tag: record
-      text: "The Nvidia Board of Directors launches an independent investigation, following reports that its CEO was the target of a foreign intelligence effort. The board says it has no reason to believe national security or Nvidia secrets were threatened, and has confidence in Mr. Huang."
+      text: "Nvidia's board launches an independent investigation, following reports that its CEO was the target of a foreign intelligence effort. The board says it has no reason to believe national security or Nvidia secrets were compromised, and has confidence in Huang as CEO."
       sources: [board-nov8]
 
 - date: 2026-11-07
@@ -87,7 +87,7 @@
       sources: [nyt-nov6]
 
 - date: 2026-10-29
-  label: "29–30 October 2026"
+  label: "29-30 October 2026"
   headline: "The story breaks"
   points:
     - tag: reported
