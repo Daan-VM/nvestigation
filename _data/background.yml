@@ -2,25 +2,25 @@
 
 - label: "May 2026"
   tag: record
-  text: "Short seller Culper Research publishes a report on Nvidia’s China exposure that mentions Megaspeed and Huang’s ties to Alice Huang."
+  text: "Culper Research publishes a report on Nvidia’s China exposure that mentions Megaspeed and Huang’s ties to Alice Huang. Culper had shorted Nvidia stock, meaning it makes money if the share prices fall."
   sources: [culper-report]
 
 - label: "Spring 2026"
   tag: reported
-  text: "A classified memo circulates among senior US officials, according to later New York Times reporting."
-  sources: [newsweek-timeline]
+  text: "Secretary of state Marco Rubio warns U.S. officials of Huang's relationship with a woman tied to Chinese intelligence, according to New York Times reporting."
+  sources: [nyt-memo]
 
 - label: "2025"
   tag: reported
-  text: "The president is reportedly briefed on the intelligence. Huang lobbies for looser limits on chip sales to China. Taiwanese TV films the two at a group dinner in Taipei."
-  sources: [newsweek-timeline]
+  text: "The president is reportedly briefed on the intelligence. Huang lobbies for looser export restriction on chip shipments to China. President Trump allows conditional sales of Nvidia H200 chips to China."
+  sources: [nyt-oct29, information-report, cnn-h200]
 
 - label: "2024"
   tag: reported
-  text: "The two reportedly meet at an Nvidia event. A Megaspeed affiliate begins buying what becomes at least $4.8 billion of Nvidia-based equipment, and the Commerce Department starts examining Megaspeed."
-  sources: [newsweek-timeline]
+  text: "The two reportedly meet at an Nvidia event, although the exact timing remains unclear. A Megaspeed affiliate begins buying what becomes at least $4.8 billion of Nvidia-based equipment, and the Commerce Department starts examining Megaspeed."
+  sources: [newsweek-timeline, information-report]
 
 - label: "2023"
   tag: record
-  text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme."
-  sources: [newsweek-timeline]
+  text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme. She resigns as director by November, but continues to act as company leader."
+  sources: [wsj-timeline, information-report]
