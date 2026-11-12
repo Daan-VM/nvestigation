@@ -22,5 +22,8 @@
 
 - label: "2023"
   tag: record
-  text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme. She resigns as director by November, but continues to act as company leader."
+  text: "Alice Huang becomes managing director of Megaspeed, which later joins an Nvidia partner programme.
+  sources: [wsj-timeline, information-report]
+  tag: reported
+  text: "She resigns as director by November, but continues to act as company leader."
   sources: [wsj-timeline, information-report]
