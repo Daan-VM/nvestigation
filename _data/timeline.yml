@@ -4,7 +4,7 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-11
-  headline: "Deadline day on capitol hill, second affair"
+  headline: "Deadline day on Capitol Hill, second affair"
   points:
     - tag: record
       text: " Jensen Huang must accept the House briefing today or propose a new date. Committee chairman Brian Mast has said a subpoena is possible if he doesn't reply."
