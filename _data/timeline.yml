@@ -18,6 +18,9 @@
     - tag: reported
       text: "U.S. Intelligence Agencies reportedly aren't completely sure that Alice Huang is a Chinese intelligence asset. Multiple sources tell CNN that the intelligence collected on her so far does not provide definitive proof. They do emphasize that they still see the relationship as risky."
       sources: [cnn-intel]
+    - tag: reported
+      text: "Nvidia has approached Arm CEO Rene Haas in its search for a new CEO, reports the Financial Times. He'd previously worked for Nvidia. There's no guarantee he'll be offered the job or accept it, sources say."
+      sources: [ft-haas]
 
 - date: 2026-11-12
   headline: "Jensen Huang resigns as Nvidia CEO"
