@@ -138,6 +138,13 @@
   .entry { padding-left: 2.1rem; }
   .bar nav { gap: 0.9rem; font-size: 0.85rem; }
 }
+  /* Same tag layout for "Before the story broke" */
+  .earlier .entry > p { position: relative; padding-left: 7.5rem; margin-bottom: 0; }
+  .earlier .entry > p > .tag { position: absolute; left: 0; top: 0.25em; margin: 0; min-width: 6.4rem; text-align: center; }
+  @media (max-width: 36rem) {
+    .earlier .entry > p { padding-left: 0; }
+    .earlier .entry > p > .tag { position: static; display: table; margin: 0 0 0.35rem; min-width: 0; }
+}
 }
 </style>
 </head>
