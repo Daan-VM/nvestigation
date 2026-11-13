@@ -64,10 +64,10 @@
       text: "Nvidia shares slide further, wiping out the stock's gains for 2026."
       sources: [stocks-2026]
     - tag: reported
-      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Huang was in a relationship with an alleged Chinese spy. President Trump had denied any prior knowledge of the matter."
+      text: "According to The New York Times, President Trump was repeatedly briefed on intelligence showing that Huang was in a relationship with an alleged Chinese spy. He had denied any prior knowledge of the matter."
       sources: [nyt-nov10]
     - tag: reported
-      text: "The Information reports that companies tied to Alice Huang moved export-restricted Nvidia chips worth at least $7.5 billion into China since 2023. Some reportedly ended up in data centers serving Alibaba and Tencent."      
+      text: "The Information reports that companies tied to Alice Huang have moved export-restricted Nvidia chips worth at least $7.5 billion into China since 2023. Some reportedly ended up in data centers serving Alibaba and Tencent."      
       sources: [information-report]
     - tag: denied
       text: "A Chinese company named in that same report says it complies with applicable laws and has no dealings with Alice Huang. Megaspeed says U.S. inspections found no evidence of illicit chip transfers."
