@@ -186,3 +186,27 @@
   title: "Nvidia CEO Huang had a relationship with a second employee, sources say"
   url: https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/
   date: 12 Nov 2026
+
+- id: techcrunch-dems
+  publisher: TechCrunch
+  title: "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump"
+  url: https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/
+  date: 12 Nov 2026
+
+- id: nyt-lutnick
+  publisher: The New York Times
+  title: "Huang and Lutnick Summoned to Testify Before Congress"
+  url: https://www.nytimes.com/2026/11/12/business/jensen-huang-howard-lutnick-testify-capitol-hill.html
+  date: 13 Nov 2026
+
+- id: bloomberg-reconstruction
+  publisher: Bloomberg
+  title: "‘I’m a Piece of Sh--’: Jensen Huang’s Last Hours as Nvidia CEO"
+  url: https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia
+  date: 13 Nov 2026
+
+- id: cnn-intel
+  publisher: CNN
+  title: "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say"
+  url: https://edition.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia
+  date: 13 Nov 2026
