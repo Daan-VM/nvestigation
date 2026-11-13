@@ -3,6 +3,19 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-13
+  headline: "Democrats investigate Trump Administration's handling of affair"
+  points:
+    - tag: record
+      text: "Now that Jensen Huang has stepped down, the focus shifts to the Trump administration. Democrats opened an inquiry into how the administration handled Nvidia's chip sales to China, following reports that the U.S. government knew of Huang's affair and chose not to act. Commerce Secretary Howard Lutnick has been summoned to testify before Congress."
+      sources: [techcrunch-dems, nyt-lutnick]
+    - tag: reported
+      text: "Nvidia's board already decided that Huang had to go on Wednesday, according to a reconstruction by Bloomberg. The board reportedly decided to act after news broke of the affair with an Nvidia employee who was his direct report."
+      sources: [bloomberg-reconstruction]
+    - tag: reported
+      text: "U.S. Intelligence Agencies aren't fully sure that Alice Huang is a Chinese intelligence asset. Multiple sources tell CNN that the intelligence collecter on her so far does not provide definitive proof. They do emphasize that they still see the relationship as risky."
+      sources: [cnn-intel]
+
 - date: 2026-11-12
   headline: "Jensen Huang resigns as Nvidia CEO"
   points:
