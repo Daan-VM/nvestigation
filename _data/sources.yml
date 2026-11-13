@@ -193,6 +193,12 @@
   url: https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/
   date: 12 Nov 2026
 
+- id: dems-letter
+  publisher: U.S. House Committee on Ways and Means
+  title: Letter to Commerce Secretary Lutnick
+  url: https://democrats-waysandmeans.house.gov/sites/evo-subsites/democrats-waysandmeans.house.gov/files/evo-media-document/wyden-neal-nvidia-letter.pdf
+  date: 12 Nov 2026
+
 - id: nyt-lutnick
   publisher: The New York Times
   title: "Huang and Lutnick Summoned to Testify Before Congress"
