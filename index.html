@@ -98,6 +98,7 @@
   .earlier .timeline::before { background: var(--line); }
   .earlier .entry { padding-bottom: 1.5rem; }
   .earlier .entry::before { width: 12px; height: 12px; left: 2px; border-color: #4F5C33; }
+  .earlier .entry .when { display: block; margin-bottom: 0.5rem; }
 
   .ref { font-size: 0.75rem; white-space: nowrap; }
   .ref a { text-decoration: none; color: var(--green-hi); padding: 0 0.1em; }
@@ -143,7 +144,7 @@
   .earlier .entry > p > .tag { position: absolute; left: 0; top: 0.25em; margin: 0; min-width: 6.4rem; text-align: center; }
   @media (max-width: 36rem) {
     .earlier .entry > p { padding-left: 0; }
-    .earlier .entry > p > .tag { position: static; display: table; margin: 0 0 0.35rem; min-width: 0; }
+    .earlier .entry > p > .tag { position: static; display: table; margin: 0 0 0.35rem; min-width: 0; }    
 }
 }
 </style>
