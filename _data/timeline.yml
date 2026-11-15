@@ -3,6 +3,16 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-14
+  headline: "More details on internal Nvidia situation surface"
+  points:
+    - tag: reported
+      text: "Huang had reportedly misled several of Nvidia's executives about his relationship with Alice Huang, including general counsel Tim Teter. He had repeatedly told them his interactions with Alice Huang reflected standard business dealings with customers, according to Reuters reporting."
+      sources: [reuters-teter]
+    - tag: reported
+      text: "Huang reportedly also floated taking legal actions against the New York Times, after it published an article that first drew attention to his public meetings with Alice Huang. Ultimately, neither Nvidia nor Huang followed through. The NYT says it never received any legal demands."
+      sources: [reuters-teter]
+
 - date: 2026-11-13
   headline: "Democrats investigate Trump administration's handling of affair"
   points:
