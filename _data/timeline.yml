@@ -7,7 +7,10 @@
   headline: "Megaspeed launches its own investigation"
   points:
     - tag: record
-      text: "Megaspeed said that Alice Huang had officially left the company on 30 August 2025 and has no current role there. The company maintains it conducted 'legitimate and lawful' business, and that media reports aren't supported by verifiable evidence. It has launched a 'thorough internal investigation'."
+      text: "Megaspeed said that Alice Huang had officially left the company on 30 August 2025 and has no current role there."
+      sources: [reuters-15nov-megaspeed]
+      tag: denied
+      text: "The company also maintains it conducted 'legitimate and lawful' business, and that media reports aren't supported by verifiable evidence. It has launched a 'thorough internal investigation'."
       sources: [reuters-15nov-megaspeed]
 
 - date: 2026-11-14
