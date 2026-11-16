@@ -4,8 +4,11 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-15
-  headline: "Megaspeed launches its own investigation"
+  headline: "Huang considers returning to Nvidia, Megaspeed opens internal investigation"
   points:
+    - tag: reported
+      text: "Huang is reportedly considering a comeback at Nvidia. The Financial Times reports that tech executives that support the ousted CEO have set up a 'war room' to lobby for his return. Huang has reportedly given his blessing for the initiative." 
+      sources: [ft-huang-return]
     - tag: record
       text: "An open letter calling for Huang to be reinstated as CEO has garnered over 150,000 signatures. Among signees are reportedly over 7,300 current Nvidians, or about 17.5% of the company's employees. Notable tech CEO's like Elon Musk and Epic Games CEO Tim Sweeney also signed."
       sources: [open-letter]
