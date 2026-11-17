@@ -10,9 +10,11 @@
   role: "Former Megaspeed executive. U.S. intelligence reportedly assessed she was a Chinese intelligence asset; this is unproven, and China denies it. Megaspeed says she left in August 2025."
   
 - name: "Nvidia"
+  note: "company"
   role: "Under scrutiny over its former CEO's conduct and whether its chips reached China despite export controls."
 
 - name: "Megaspeed"
+  note: "company"
   role: "Singapore-based cloud computing company and major Nvidia customer. Under U.S. investigation over possible export-control violations by providing access to Nvidia chips to China. Denies any wrongdoing."
   
 - name: "Colette Kress"
