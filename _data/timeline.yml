@@ -3,6 +3,15 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-16
+  headline: "Singaporean police reportedly raided Megaspeed, found empty server racks"
+  points:
+    - tag: reported
+      text: "Indonesian police had raided Megaspeed's offices in the country earlier this year, according to The Strait Times. They reportedly found empty server racks without GPU's, according to sources."
+      sources: [strait-times-raid]
+    - tag: reported
+      text: "Nvidia's board is not considering bringing back Jensen Huang as CEO, according to CNBC sources. Instead the board is focused on continuing its national security investigation into Huang."
+      sources: [cnbc-huang-return]
 - date: 2026-11-15
   headline: "Huang considers returning to Nvidia, Megaspeed opens internal investigation"
   points:
