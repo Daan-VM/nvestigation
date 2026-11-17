@@ -4,7 +4,7 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-17
-  headline: "Nvidia's board estabilishes oversight committee on national security and export controls"
+  headline: "Nvidia's board estabilishes oversight committee"
   points:
     - tag: record
       text: "Nvidia's board has estabilished an independent committee to oversee Nvidia's national security and global trade compliance programs, following reports that its chips might have been illegally smuggled to China."
