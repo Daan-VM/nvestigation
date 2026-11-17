@@ -7,7 +7,7 @@
   headline: "U.S. Commerce and Justice Departments investigate Megaspeed"
   points:
     - tag: record
-      text: "The U.S. Commerce Department and Justice Department said they are investigating Megaspeed. It says the Commerce Department started in 2024. It also says it had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards, it says. The NYT previously reported that DOJ took over after an Nvidia intervention."
+      text: "The U.S. Commerce and Justice Departments said they are investigating Megaspeed. They say the Commerce Department started in 2024. Commerce also says it had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards, it says. The NYT previously reported that DOJ took over after an Nvidia intervention."
       sources: [doj-investigation, nyt-nov9]
     - tag: record
       text: "Nvidia's board has estabilished an independent committee to oversee Nvidia's national security and global trade compliance programs, following reports that its chips might have been illegally smuggled to China."
