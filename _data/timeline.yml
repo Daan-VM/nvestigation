@@ -14,7 +14,7 @@
   headline: "Indonesian police reportedly raided Megaspeed, found empty server racks"
   points:
     - tag: reported
-      text: "Indonesian police had raided Megaspeed's offices in the country earlier this year, according to The Strait Times. They reportedly found empty server racks without GPU's, according to sources."
+      text: "Indonesian police had raided Megaspeed's offices in the country earlier this year, according to The Strait Times. They reportedly found empty server racks without GPU's, its sources say."
       sources: [strait-times-raid]
     - tag: reported
       text: "Nvidia's board is not considering bringing back Jensen Huang as CEO, according to CNBC sources. Instead the board is focused on continuing its national security investigation into Huang."
