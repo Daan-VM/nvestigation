@@ -259,6 +259,18 @@
   url: https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html
   date: 16 Nov 2026
 
+- id: huang-first-statement
+  publisher: Jensen Huang
+  title: "Statement"
+  url: https://x.com/JensenHuang/status/2122726005219737649
+  date: 17 Nov 2026
+
+- id: the-verge-earnings-call
+  publisher: The Verge
+  title: "Nvidia says it does not intend to reinstate Jensen Huang as CEO"
+  url: https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx
+  date: 17 Nov 2026
+
 - id: doj-investigation
   publisher: U.S. Department of Justice
   title: "JJoint statement from Department of Commerce and Department of Justice on Megaspeed Investigation"
