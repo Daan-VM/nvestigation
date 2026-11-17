@@ -4,8 +4,14 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-17
-  headline: "U.S. Commerce and Justice Departments investigate Megaspeed"
+  headline: "Huang breaks silence, Nvidia not interested in his return"
   points:
+    - tag: record
+      text: "In his first statement since his resignation, Jensen Huang signaled he was interested in returning as Nvidia CEO. He'd be honored to return if the board wanted him to, he said, following calls from Silicon Valley allies and some employees for him to return. Huang also acknowledged he created problems for the board and apologised again."
+      sources: [huang-first-statement]
+    - tag: record
+      text: "Nvidia held its quarterly earnings call. Board chair Harvey Jones said that, when Huang resigned, 'the Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO'. The company didn't take questions on Huang resignation or provided any further comment on the matter."
+      sources: [the-verge-earnings-call]
     - tag: record
       text: "The U.S. Commerce and Justice Departments said they are investigating Megaspeed. They say the Commerce Department started in 2024. Commerce also says it had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards. The NYT previously reported that DOJ took over after an Nvidia intervention."
       sources: [doj-investigation, nyt-nov9]
