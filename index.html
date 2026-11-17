@@ -146,6 +146,27 @@
     .earlier .entry > p { padding-left: 0; }
     .earlier .entry > p > .tag { position: static; display: table; margin: 0 0 0.35rem; min-width: 0; }    
 }
+  /* Who's who */
+  #people { padding-top: 2.5rem; }
+  .people { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+  .people summary {
+    display: flex; align-items: baseline; gap: 0.75rem; padding: 1.1rem 1.5rem;
+    cursor: pointer; list-style: none; font-weight: 700; font-size: 1.1rem;
+  }
+  .people summary::-webkit-details-marker { display: none; }
+  .people summary small { font-size: 0.9rem; font-weight: 400; color: var(--muted); }
+  .people summary::after { content: "+"; margin-left: auto; font-size: 1.4rem; font-weight: 400; line-height: 1; color: var(--green); }
+  .people[open] summary::after { content: "\2212"; }
+  .people summary:hover { background: rgba(118,185,0,0.06); }
+  .people-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5rem; margin: 0; padding: 0.25rem 1.5rem 1rem; border-top: 1px solid var(--line); }
+  .people-grid div { padding: 0.9rem 0; border-bottom: 1px solid var(--line); }
+  .people-grid dt { font-weight: 700; }
+  .people-grid dt span { font-weight: 400; font-size: 0.9rem; color: var(--muted); }
+  .people-grid dd { margin: 0.2rem 0 0; font-size: 0.98rem; color: var(--soft); }
+  @media (max-width: 48rem) {
+    .people-grid { grid-template-columns: 1fr; }
+    .people summary small { display: none; }
+  }
 }
 </style>
 </head>
@@ -180,6 +201,17 @@
       <div><dt>In the role since</dt><dd>{{ site.data.status.since }}<small>{{ site.data.status.since_note }}</small></dd></div>
       <div><dt>Status checked</dt><dd>{{ site.data.status.updated | date: "%-d %B %Y" }}</dd></div>
     </dl>
+  </section>
+
+  <section id="people">
+    <details class="people">
+      <summary>Who's who <small>Key people and companies</small></summary>
+      <dl class="people-grid">
+        {% for p in site.data.people %}
+        <div><dt>{{ p.name }}{% if p.note %} <span>({{ p.note }})</span>{% endif %}</dt><dd>{{ p.role }}</dd></div>
+        {% endfor %}
+      </dl>
+    </details>
   </section>
 
   <section id="timeline">
