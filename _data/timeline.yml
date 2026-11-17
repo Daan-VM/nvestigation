@@ -36,7 +36,7 @@
   headline: "Huang reportedly weighs return, Megaspeed opens internal investigation"
   points:
     - tag: reported
-      text: "Huang is reportedly considering a comeback at Nvidia. The Financial Times reports that tech executives that support the ousted CEO have set up a 'war room' to lobby for his return. Huang reportedly supports the effort." 
+      text: "Huang is reportedly considering a comeback at Nvidia. The Financial Times reports that tech executives that support the former CEO have set up a 'war room' to lobby for his return. Huang reportedly supports the effort." 
       sources: [ft-huang-return]
     - tag: record
       text: "An open letter calling for Huang to be reinstated as CEO has garnered over 150,000 signatures. The campaign says over 7,300 current Nvidia employees signed, or about 17.5% of the company's workforce, although those numbers could not be independently verified. Notable tech CEOs like Elon Musk and Epic Games boss Tim Sweeney also signed."
@@ -52,7 +52,7 @@
   headline: "More details on internal Nvidia situation surface"
   points:
     - tag: reported
-      text: "Huang had reportedly misled several of Nvidia's executives about his relationship with Alice Huang, including general counsel Tim Teter. He had repeatedly told them his interactions with Alice Huang reflected standard business dealings with customers, according to Reuters reporting."
+      text: "Huang had reportedly misled several of Nvidia's executives about his relationship with Alice Huang, including general counsel Tim Teter. He had told them his interactions with Alice Huang reflected standard business dealings with customers, according to Reuters reporting."
       sources: [reuters-teter]
     - tag: reported
       text: "Huang reportedly also floated taking legal action against the New York Times, after it published an article that first drew attention to his public meetings with Alice Huang in October 2025. Ultimately, neither Nvidia nor Huang followed through. The NYT says it never received any legal demands."
