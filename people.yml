@@ -1,0 +1,25 @@
+# The "Who's who" panel, in the order shown.
+# note is optional and appears in grey after the name.
+# Keep allegations attributed, and include denials where there are any.
+
+- name: "Jensen Huang"
+  role: "Nvidia co-founder. CEO from 1993 until his resignation on 12 November 2026."
+
+- name: "Alice Huang"
+  note: "no relation"
+  role: "Former Megaspeed executive, also known as Huang Le. The New York Times reports US intelligence assessed she was recruited by China's Ministry of State Security; this is unproven, and China denies it. Megaspeed says she left in August 2025."
+
+- name: "Megaspeed"
+  role: "Singapore-based cloud computing company and major Nvidia customer. Under US criminal investigation over possible export-control violations. Denies wrongdoing."
+
+- name: "Shanghai Century Litong"
+  role: "Chinese Nvidia cloud partner, reportedly tied to Alice Huang's family. Says it complies with the law and has no dealings with her."
+
+- name: "Colette Kress"
+  role: "Nvidia CFO. Interim CEO since 12 November 2026."
+
+- name: "Harvey Jones"
+  role: "Chair of Nvidia's board of directors."
+
+- name: "Tim Teter"
+  role: "Nvidia general counsel. Due to appear before House committees on 2 December 2026."
