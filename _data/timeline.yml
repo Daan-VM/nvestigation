@@ -3,6 +3,13 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-17
+  headline: "Nvidia's board estabilishes oversight committee on national security and export controls"
+  points:
+    - tag: record
+      text: "Nvidia's board has estabilished an independent committee to oversee Nvidia's national security and global trade compliance programs, following reports that its chips might have been illegally smuggled to China."
+      sources: [nvidia-oversight-committee]
+      
 - date: 2026-11-16
   headline: "Singaporean police reportedly raided Megaspeed, found empty server racks"
   points:
@@ -12,6 +19,7 @@
     - tag: reported
       text: "Nvidia's board is not considering bringing back Jensen Huang as CEO, according to CNBC sources. Instead the board is focused on continuing its national security investigation into Huang."
       sources: [cnbc-huang-return]
+      
 - date: 2026-11-15
   headline: "Huang considers returning to Nvidia, Megaspeed opens internal investigation"
   points:
