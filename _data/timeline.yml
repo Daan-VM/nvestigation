@@ -7,7 +7,7 @@
   headline: "Nvidia's board estabilishes oversight committee"
   points:
     - tag: record
-      text: "The U.S. Department of Justice shared details on its ongoing investigation into Megaspeed. It says the Commerce Department started an investigation in 2024. In June 2025, Nvidia placed the company on its 'no sell' list, according to the DOJ. It also says the Commerce Department had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards, it says. It had previously been reported that the DOJ took over the investigation after an Nvidia intervention."
+      text: "The U.S. Commerce Department and Justice Department said they are investigating Megaspeed. It says the Commerce Department started an investigation in 2024. It also says it had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards, it says. It had previously been reported that the DOJ took over after an Nvidia intervention."
       sources: [doj-investigation, nyt-nov9]
     - tag: record
       text: "Nvidia's board has estabilished an independent committee to oversee Nvidia's national security and global trade compliance programs, following reports that its chips might have been illegally smuggled to China."
