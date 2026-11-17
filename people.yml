@@ -3,23 +3,26 @@
 # Keep allegations attributed, and include denials where there are any.
 
 - name: "Jensen Huang"
-  role: "Nvidia co-founder. CEO from 1993 until his resignation on 12 November 2026."
+  role: "Nvidia co-founder and former CEO. Led the company from its founding in 1993 until his resignation on 12 November 2026."
 
 - name: "Alice Huang"
   note: "no relation"
-  role: "Former Megaspeed executive, also known as Huang Le. The New York Times reports US intelligence assessed she was recruited by China's Ministry of State Security; this is unproven, and China denies it. Megaspeed says she left in August 2025."
+  role: "Former Megaspeed executive, also known as Huang Le. According to New York Times reporting, U.S. intelligence assessed she was a Chinese intelligence asset; this is unproven, and China denies it. Megaspeed says she left in August 2025."
+
+- name: "Nvidia"
+  role: "U.S. company whose chips power much of the world's AI computing. It became subject to scrutiny after its former CEO Jensen Huang reportedly had affairs with an alleged Chinese intelligence asset and an Nvidia executive who reported directly to him, and over whether its chips reached China in spite of export controls."
 
 - name: "Megaspeed"
-  role: "Singapore-based cloud computing company and major Nvidia customer. Under US criminal investigation over possible export-control violations. Denies wrongdoing."
-
-- name: "Shanghai Century Litong"
-  role: "Chinese Nvidia cloud partner, reportedly tied to Alice Huang's family. Says it complies with the law and has no dealings with her."
-
+  role: "Singapore-based cloud computing company and major Nvidia customer. Under U.S. investigation over possible export-control violations by providing access to Nvidia chips to China. Denies any wrongdoing."
+  
 - name: "Colette Kress"
-  role: "Nvidia CFO. Interim CEO since 12 November 2026."
-
-- name: "Harvey Jones"
-  role: "Chair of Nvidia's board of directors."
+  role: "Nvidia's chief financial officer. Interim CEO since 12 November 2026, following Huang's resignation."
 
 - name: "Tim Teter"
-  role: "Nvidia general counsel. Due to appear before House committees on 2 December 2026."
+  role: "Nvidia general counsel. Reportedly misled by Huang about his relationship with Alice Huang, and reportedly urged the board to open an investigation. Due to appear before House committees on 2 December 2026."
+
+- name: "Donald Trump"
+  role: "U.S. president. Has said the FBI is looking into the matter. The New York Times reports he was briefed on the intelligence before the story broke but took no action; he has denied prior knowledge."
+
+- name: "Howard Lutnick"
+  role: "U.S. Commerce Secretary, under bipartisan pressure over why his department didn't blacklist Megaspeed sooner. Due to testify before the Senate Banking Committee on 10 December."
