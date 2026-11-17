@@ -259,8 +259,14 @@
   url: https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html
   date: 16 Nov 2026
 
+- id: doj-investigation
+  publisher: U.S. Department of Justice
+  title: "JJoint statement from Department of Commerce and Department of Justice on Megaspeed Investigation"
+  url: https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation
+  date: 17 Nov 2026
+
 - id: nvidia-oversight-committee
-  Publisher: Nvidia
+  publisher: Nvidia
   title: "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee"
   url: https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee
   date: 17 Nov 2026
