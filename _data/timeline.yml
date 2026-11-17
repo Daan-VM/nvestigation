@@ -4,22 +4,22 @@
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
 - date: 2026-11-17
-  headline: "Huang breaks silence, Nvidia not interested in his return"
+  headline: "Huang breaks silence, Nvidia does not intend to reinstate him"
   points:
     - tag: record
       text: "In his first statement since his resignation, Jensen Huang signaled he was interested in returning as Nvidia CEO. He'd be honored to return if the board asked him to, he said, following calls from Silicon Valley leaders and some employees for him to return. Huang also said he 'made serious mistakes' and apologised again."
       sources: [huang-first-statement]
     - tag: record
-      text: "Nvidia held its quarterly earnings call. Board chair Harvey Jones said that, when Huang resigned, 'the Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO'. The company didn't take questions on Huang resignation or provided any further comment on the matter."
+      text: "Nvidia held its quarterly earnings call. Board chair Harvey Jones said that, when Huang resigned, 'the Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO'. The company didn't take questions on Huang's resignation or comment further."
       sources: [the-verge-earnings-call]
     - tag: record
-      text: "The U.S. Commerce and Justice Departments said they are investigating Megaspeed. They say the Commerce Department started in 2024. Commerce also says it had interviewed Alice Huang and conducted on-site checks at Megaspeed. The DOJ 'took the lead role' afterwards. The NYT previously reported that DOJ took over after an Nvidia intervention."
+      text: "The U.S. Commerce and Justice Departments released details of an ongoing investigation into Megaspeed. They say the Commerce Department started in 2024 and had interviewed Alice Huang and conducted on-site checks at Megaspeed last year. The DOJ 'took the lead role' afterwards. The NYT previously reported that DOJ took over after an Nvidia intervention; DOJ and Commerce did not confirm that."
       sources: [doj-investigation, nyt-nov9]
     - tag: record
-      text: "Nvidia's board has estabilished an independent committee to oversee Nvidia's national security and global trade compliance programs, following reports that its chips might have been illegally smuggled to China."
+      text: "Nvidia's board has established an independent committee to oversee Nvidia's national security and global trade compliance programs, amid reports that its chips might have been illegally smuggled to China."
       sources: [nvidia-oversight-committee]
     - tag: record
-      text: "Jensen Huang has agreed to testify before Congress on Tuesday 1 December 2026. On that day he wil appear before three separate House Committees. Nvidia's general counsel Tim Teter will follow a day later. As previously stated, Huang's testimony will be behind closed doors."
+      text: "Jensen Huang has voluntarily agreed to testify before Congress on Tuesday 1 December 2026. On that day he will appear before three separate House Committees. Nvidia's general counsel Tim Teter will follow a day later."
       sources: [huang-testimony-date]
       
 - date: 2026-11-16
