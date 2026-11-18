@@ -3,6 +3,15 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-18
+  headline: "Nvidia has stopped selling Hopper chips to China"
+  points:
+    - tag: record
+      text: "In its quarterly earnings call, interim CEO Colette Kress confirmed Nvidia is no longer shipping its licensed Hopper GPUs to China. It had received permission to ship those chips to the country, but no longer does so. Kress did not provide reasoning."
+      sources: [hopper-seeking-alpha]
+    - tag: reported
+      text: "The SEC has opened a civil probe into Nvidia, sources tell The Wall Street Journal. It's looking into whether Nvidia's disclosures misled investors, the sources say."
+      sources: [wsj-sec]
 - date: 2026-11-17
   headline: "Huang breaks silence, Nvidia does not intend to reinstate him"
   points:
