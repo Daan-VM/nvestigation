@@ -3,6 +3,15 @@
 # sources are ids from sources.yml. Keep text inside double quotes.
 # For a date range, add a label line under date, e.g. label: "5–6 November 2026".
 
+- date: 2026-11-23
+  headline: "Jensen Huang returns as Nvidia CEO"
+  points: 
+    - tag: record
+      text: "Nvidia has reinstated Jensen Huang as CEO. Following 'a series of discussions and meetings' with Huang, the board voted unanimously in favor of his return. The company received input from 'senior levels of the U.S. government', which made the board 'confident that Mr. Huang's reinstatement poses no national security risk'. The independent investigation goes on and Huang is cooperating."
+      sources: [huang-returns]
+      tag: reported
+      text: "According to The New York Times, President Donald Trump pushed the Nvidia board for Huang's return. He reportedly asked Vice President JD Vance to work with the company's board. Semafor reports the President called into the meeting where Nvidia's board decided to reinstate Huang."
+      sources: [huang-returns-nyt, huang-returns-semafor]
 - date: 2026-11-18
   headline: "Nvidia has stopped selling Hopper chips to China"
   points:
